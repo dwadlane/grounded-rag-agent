@@ -80,7 +80,7 @@ Read the numbers fairly. The corpus is small and the questions were written by t
 A wrong answer about a fee or a cancellation window costs more than "I don't know". There are four places the agent can decline, listed from cheapest to most expensive:
 
 - **Out of scope**: advice and unrelated questions never reach retrieval or the model.
-- **Low relevance**: if the retrieved chunks do not contain most of the question's terms, we refuse before spending a model call.
+- **Low relevance**: if the retrieved chunks do not contain at least 40% of the question's content terms (`minCoverage` in `src/config.ts`), we refuse before spending a model call.
 - **Model declined**: the model is told to reply `NOT_IN_DOCUMENTS` when the passages do not hold the answer.
 - **Ungrounded**: a drafted answer that cites nothing, cites a passage it was not given, or contains a number that is not in the cited passage is stripped or refused.
 
@@ -109,10 +109,10 @@ cd grounded-rag-agent
 npm install
 npm test          # unit tests
 npm run eval      # the 60 question eval, writes eval/report.md
-npm run ask "How much is a standard doctor visit?"
+npm run ask "How much is a standard doctor visit?" -- --recorded
 ```
 
-Without `ANTHROPIC_API_KEY`, `npm run ask` replays the committed recordings, so it only has answers for the eval questions. Six sample runs are in [examples/demo-output.md](examples/demo-output.md): three answered with citations, one refusal, one conflict resolved to the newest document, and one emergency.
+With `--recorded`, or without `ANTHROPIC_API_KEY`, `npm run ask` replays the committed recordings, so it only has answers for the eval questions. Six sample runs are in [examples/demo-output.md](examples/demo-output.md): three answered with citations, one refusal, one conflict resolved to the newest document, and one emergency.
 
 To use a live model:
 

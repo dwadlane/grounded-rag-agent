@@ -31,6 +31,14 @@ describe("groundedness", () => {
   it("rejects a wrong number even when the words match", () => {
     expect(checkSentence(parseAnswer("A standard visit costs $85 [1].")[0]!, ctx, 0.6).why).toContain("$85");
   });
+  it("compares whole numbers, not substrings", () => {
+    const hours = [chunk("We need 12 hours notice. The fee is $95. Call 1-800-555-0100.")];
+    expect(checkSentence(parseAnswer("We need 2 hours notice [1].")[0]!, hours, 0.6).ok).toBe(false);
+    expect(checkSentence(parseAnswer("The fee is $9 [1].")[0]!, hours, 0.6).ok).toBe(false);
+    expect(checkSentence(parseAnswer("The fee is $11 [1].")[0]!, ctx, 0.6).ok).toBe(false);
+    expect(checkSentence(parseAnswer("We need 12 hours notice [1].")[0]!, hours, 0.6).ok).toBe(true);
+    expect(checkSentence(parseAnswer("Call 1-800-555-0100 [1].")[0]!, hours, 0.6).ok).toBe(true);
+  });
   it("rejects a confident sentence that the passage does not support", () => {
     expect(checkSentence(parseAnswer("Appointments are free on Sundays [1].")[0]!, ctx, 0.6).ok).toBe(false);
   });

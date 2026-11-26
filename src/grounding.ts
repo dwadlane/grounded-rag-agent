@@ -49,9 +49,10 @@ export function checkSentence(s: AnswerSentence, context: Chunk[], minSupport: n
   const cited = s.cites.map((n) => context[n - 1]);
   if (cited.some((c) => !c)) return { sentence: s, ok: false, why: "cites a passage that was not provided" };
   const evidence = cited.map((c) => c!.text).join(" ");
-  const evidenceNorm = evidence.toLowerCase().replace(/\s+/g, "");
+  // Compare whole numbers, never substrings: "$9" is not "$95" and "2 hours" is not "12 hours".
+  const evidenceNumbers = new Set(numbersIn(evidence));
   for (const n of numbersIn(s.text)) {
-    if (!evidenceNorm.includes(n)) return { sentence: s, ok: false, why: `number ${n} not in cited passage` };
+    if (!evidenceNumbers.has(n)) return { sentence: s, ok: false, why: `number ${n} not in cited passage` };
   }
   const want = uniqueTerms(s.text);
   const have = new Set(uniqueTerms(evidence + " " + cited.map((c) => c!.section).join(" ")));
