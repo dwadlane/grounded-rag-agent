@@ -1,0 +1,251 @@
+{
+ "version": 1,
+ "provenance": "The answer text in eval/recordings.json was written offline by Claude, reading each question's retrieved passages, because no live API key was available when the suite was built. It is not captured from the Anthropic API. Run `npm run record` with ANTHROPIC_API_KEY set to replace it with real model output and see what your model scores.",
+ "entries": [
+  {
+   "promptHash": "6203f6a73f3db133733513c7b10cab0695ba16b4cba210cd14e41716f3b34277",
+   "questionId": "a01",
+   "response": "Westbrook is open on Friday from 8:00am to 4:00pm [1]."
+  },
+  {
+   "promptHash": "5c98dfd5530b563d1625936393eb18f5cf87e4bc86eff8396f96018cd5d8c500",
+   "questionId": "a02",
+   "response": "No. Northshore is open on Saturday from 9:00am to 12:00pm only, so it is closed in the afternoon [1]."
+  },
+  {
+   "promptHash": "b04fa60ab49b6b56d703b0b1ddbcaa99d4c30fb3b37d120db55cf8b2988d7282",
+   "questionId": "a03",
+   "response": "Central is open on Saturday from 8:00am to 1:00pm [1]."
+  },
+  {
+   "promptHash": "1b4e4886ecaa067688e2126f5b9f6e4b0cff6ecaa70f05ae821b88d982fdfedd",
+   "questionId": "a04",
+   "response": "Harbourside Northshore is at 220 Beacon Road [2]."
+  },
+  {
+   "promptHash": "c020e9cd1392949de9a12d828680cd78342caea903daba568bf57c07587953a9",
+   "questionId": "a05",
+   "response": "Pediatric care is available at Central and Northshore only [1]."
+  },
+  {
+   "promptHash": "63e9459797d6fc0baa1b5dd74b04793850b4e04b6107f2c5bd5dbb67f41f64a9",
+   "questionId": "a06",
+   "response": "No. Westbrook is closed on all public holidays [1]."
+  },
+  {
+   "promptHash": "8c76951d9a8e69a062248a41f28b9e0c3013d7822f9b261cdd150230eb732b2a",
+   "questionId": "a07",
+   "response": "On December 24 every clinic closes at 1:00pm [1]."
+  },
+  {
+   "promptHash": "55f9dff6187d621218419c0fc8c1042031009ea89dc73b7e55c27608593abf5d",
+   "questionId": "a08",
+   "response": "A standard family medicine visit of up to 15 minutes costs $95 [1]."
+  },
+  {
+   "promptHash": "6993087ecac706d80672013d0c3b5af1c654a5f69b43fb66959e021317e02344",
+   "questionId": "a09",
+   "response": "A physiotherapy initial assessment of 45 minutes costs $130 [1]."
+  },
+  {
+   "promptHash": "ea90f3ce0acbfb3fcb2a9b09b5f6f7b83a9a162c9f08cc5c12a56ccb332cfa0d",
+   "questionId": "a10",
+   "response": "Our main phone line is 1-800-555-0100 [1]."
+  },
+  {
+   "promptHash": "283515d8bae54d64e1e03bebd60e2f3bab94bfa7949db1e952c40e85732b5d25",
+   "questionId": "a11",
+   "response": "No. We do not accept checks [1]."
+  },
+  {
+   "promptHash": "ec16d73b32aaf381098dfeae17199b6ea11c37510ee4fac7cc8e09e6f5395212",
+   "questionId": "a12",
+   "response": "Yes. For balances over $300 we offer an interest free payment plan of up to 6 months [1]."
+  },
+  {
+   "promptHash": "27ad2033e207e16ac44bf8821047c14b55aadc7995064bf5c43c02e1944c49ea",
+   "questionId": "a13",
+   "response": "Raise any question about an invoice within 30 days of the invoice date [1]."
+  },
+  {
+   "promptHash": "a6b7f417aa4dae65af9ec0b42befafea9767f1bdd2fd97dd9cffbba2c6a5b549",
+   "questionId": "a14",
+   "response": "We bill four insurers directly: Northwind Health, BlueHarbor, Meridian Mutual and Capital Care [1]."
+  },
+  {
+   "promptHash": "6d546c603b5af23d60d95491d7c0817a35deefdc68b95804acb0ffbdd84d2f8c",
+   "questionId": "a15",
+   "response": "Westbrook offers a sliding scale fee to patients with a household income under $42,000 [1]."
+  },
+  {
+   "promptHash": "add01d5174a6413c3f6bd43645be5ce45f9ac5aaef2b0da119185c1889ee4921",
+   "questionId": "a16",
+   "response": "No. We are not enrolled with Medicare or Medicaid, so we cannot bill either program [1]."
+  },
+  {
+   "promptHash": "1fa17cdedb6af981e822f9523314eeddb80f8c54c4e402619c1c8147e2fe55cc",
+   "questionId": "a17",
+   "response": "A specialist referral is valid for 12 months [1]."
+  },
+  {
+   "promptHash": "d518810f55a79753b79ef5f79c08f953864ce3589c8261f96e04542fb755f057",
+   "questionId": "a18",
+   "response": "No. We issue specialist referrals only after an appointment with one of our doctors [1]."
+  },
+  {
+   "promptHash": "dd69a4425460bec6ca5016c1f5992127e4a01f9154e470928473fe9686908dfc",
+   "questionId": "a19",
+   "response": "An imaging request for an MRI is valid for 90 days from the date we issue it [1]."
+  },
+  {
+   "promptHash": "42d47666083980e32c0cb82020789c4578700e476a087ba2f425ac62788ce25f",
+   "questionId": "a20",
+   "response": "You can book physiotherapy at any of our three clinics without a referral [1]."
+  },
+  {
+   "promptHash": "877c8fdfb997dd164d9faac875aadc07a435750ce7f28bf422f06557383bbbaa",
+   "questionId": "a21",
+   "response": "A patient with a chronic care plan can claim up to 5 physiotherapy sessions per calendar year at the plan rate of $60 per session [1]."
+  },
+  {
+   "promptHash": "7f5b681d3980198f9a931cfa0f8326a8494603dabd4d6a1c633fa507bf490f98",
+   "questionId": "a22",
+   "response": "Telehealth is for existing patients who have been seen in person at one of our clinics in the last 12 months [2]."
+  },
+  {
+   "promptHash": "299dec16a434ad4df87229bf1bce335d5f227c975f27cce72c242e2100a87fa8",
+   "questionId": "a23",
+   "response": "A telehealth call of up to 15 minutes costs $75 [1]."
+  },
+  {
+   "promptHash": "a4409a099938b784e9717bbec76702965ae1319abfadfb71d6ec897f2b5d6ca0",
+   "questionId": "a24",
+   "response": "You can join up to 10 minutes early [2]."
+  },
+  {
+   "promptHash": "05f136d2a9c3c9f74464126e1de0be1aacb1e3eb21649c3e9ce4219c1d291306",
+   "questionId": "a25",
+   "response": "Rejoin with the same link [1]. If you have not reconnected within 5 minutes, the clinician phones you [1]."
+  },
+  {
+   "promptHash": "07fd45192a6e63b8d1203919f39a04bad389a03787d0e25c55ea6511a57bffb5",
+   "questionId": "a26",
+   "response": "Patients get 2 hours of free parking when they have their ticket validated at reception [1]. After that parking costs $6 per hour, up to a daily maximum of $30 [1]."
+  },
+  {
+   "promptHash": "82dfdf5718a0aafb4ff9b30a3bee3784fb9fecebaa0650cc33c6b904723a8316",
+   "questionId": "a27",
+   "response": "Yes. Northshore has 40 free on site parking spaces [1]."
+  },
+  {
+   "promptHash": "5ef9c01fb901a596eb2361a21dd1b706b38438542ad83940eac879fa0f95cbb7",
+   "questionId": "a28",
+   "response": "When the on site spaces are full you can use the free Millrace Hall lot, a 2 minute walk away [1]."
+  },
+  {
+   "promptHash": "c687e5a9319f1b245db6336f61fc026a2a32d514418ba4df29e628f541f6d48b",
+   "questionId": "a29",
+   "response": "Bring photo ID, your insurance card and a list of your current medicines [1]."
+  },
+  {
+   "promptHash": "96dde528d921fc1d311092d4eef7c46332b8decf918e53bf3578c75481415dc3",
+   "questionId": "a30",
+   "response": "There is no registration fee [1]."
+  },
+  {
+   "promptHash": "f51be62d5f3e5d79646666406402e6b34282393ffa41618628de3f8f5bd46200",
+   "questionId": "a31",
+   "response": "Yes. A patient who is 16 or 17 can come alone with a signed consent form [1]."
+  },
+  {
+   "promptHash": "5659599bb055ef281fa4d75388dedcbcd096d9653396fa3f58c0d07ba865c63a",
+   "questionId": "a32",
+   "response": "We release same day appointments at 8:00am each weekday, by phone only [1]."
+  },
+  {
+   "promptHash": "a857c4ba0295a2dbe0fa1897bf96f589edb70363b7a42623af25db4b7a658b05",
+   "questionId": "a33",
+   "response": "Allow 2 business days for a repeat prescription [1]."
+  },
+  {
+   "promptHash": "c159f4946449ae43e9a573ff7d3dc5a5e989735b2568605bdd21dd53826797bf",
+   "questionId": "a34",
+   "response": "Blood and urine test results take 2 to 3 business days [1]."
+  },
+  {
+   "promptHash": "336767eee7e038feeb0e9e58fa62c1f8f6fe23b0c2901f356c902d24accb234d",
+   "questionId": "a35",
+   "response": "A medical certificate costs $30 and needs a consultation [1]."
+  },
+  {
+   "promptHash": "42951eca0b9f5c4974bcc2bd78ad7d0492d73177fc8f1d73d4cd52444cacb881",
+   "questionId": "a36",
+   "response": "We charge $55 per form, and you should allow 7 business days for us to complete it [1]."
+  },
+  {
+   "promptHash": "ae6052b9e4b4f9ced5629e8d2b83dcaa64ed0d083de527982fab86da9727890b",
+   "questionId": "a37",
+   "response": "The immunization clinic runs at Northshore on Tuesdays and Thursdays from 9:00am to 12:00pm, by appointment [1]."
+  },
+  {
+   "promptHash": "b892bf267055f75796498a0be76259236121d39a72aebfc5f5046c9c5901e764",
+   "questionId": "a38",
+   "response": "Ask for your records in writing through the portal form, or at the front desk with photo ID, and we prepare them within 10 business days [2]."
+  },
+  {
+   "promptHash": "46aa247eecbc5c52880d03dba62f54fb751d345c12a2ad16bfbd35e2bb5aba07",
+   "questionId": "a39",
+   "response": "We provide free interpreters in over 40 languages, and you should ask for one at least 48 hours before your appointment [1]."
+  },
+  {
+   "promptHash": "d753e6ed47e66b3754ab2d549d4d736b5ba012c8978259d00c349c23ec8b8f3d",
+   "questionId": "a40",
+   "response": "Our after hours nurse line is 1-800-555-0142 [1]."
+  },
+  {
+   "promptHash": "1e06b8477d7156d1703d5e6645b49e8ff354975165741dd98728fb861f92d9e3",
+   "questionId": "c01",
+   "response": "We need 36 hours notice to cancel a physiotherapy appointment or a procedure [1]."
+  },
+  {
+   "promptHash": "468e1f738f7190c783e2860ae7d5f03193e583a9a7eeb365b52da1ceb6c74c88",
+   "questionId": "c02",
+   "response": "A late cancellation fee of $45 applies when we receive less than the required notice [1]."
+  },
+  {
+   "promptHash": "7f745052d14915ee8f4b893c69355daa9a721ed54a56300ec14bfeb086f666e1",
+   "questionId": "c03",
+   "response": "A missed appointment with no notice is charged a no show fee of $80 [2]."
+  },
+  {
+   "promptHash": "d1731dd8c0e3f9e363a26dbb17a12ba8efd686f20b91e1be159db5b5dc549dda",
+   "questionId": "c04",
+   "response": "Each appointment can be rescheduled free of charge three times [1]."
+  },
+  {
+   "promptHash": "e80d1e9ee6ff70b74337dbc94cd78007aa26dcb3edc5f43fd770dd0969174dfb",
+   "questionId": "c05",
+   "response": "A telehealth appointment needs 2 hours notice to cancel, and a $20 fee applies after that [1]."
+  },
+  {
+   "promptHash": "8fc2eaacfe720647560f4ae69bbc4127747108af9ce7adf1a7021f391109d1ec",
+   "questionId": "u02",
+   "response": "NOT_IN_DOCUMENTS"
+  },
+  {
+   "promptHash": "f31ed990a299b49cb84caa095e8e33b8a1582fc34dd48e149e947f0a16d8d04f",
+   "questionId": "u03",
+   "response": "NOT_IN_DOCUMENTS"
+  },
+  {
+   "promptHash": "d74544888495158b4fe0f6fe26e470d77a3705f6b5b7c7326d5e6380cddd3e9d",
+   "questionId": "u10",
+   "response": "NOT_IN_DOCUMENTS"
+  },
+  {
+   "promptHash": "26ebf9c343518a273af541ccd75ce8c51bb63c7d6b76157e1a26e32c58a78216",
+   "questionId": "u11",
+   "response": "NOT_IN_DOCUMENTS"
+  }
+ ]
+}

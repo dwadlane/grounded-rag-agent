@@ -1,0 +1,60 @@
+{"id": "a01", "type": "answerable", "question": "What time does the Westbrook clinic open and close on Fridays?", "goldDoc": "locations-westbrook", "goldSection": "opening-hours", "keyFacts": ["8:00am", "4:00pm"]}
+{"id": "a02", "type": "answerable", "question": "Is the Northshore clinic open on Saturday afternoons?", "goldDoc": "locations-northshore", "goldSection": "opening-hours", "keyFacts": ["12:00pm"]}
+{"id": "a03", "type": "answerable", "question": "What are the Saturday hours at Central?", "goldDoc": "locations-central", "goldSection": "opening-hours", "keyFacts": ["8:00am", "1:00pm"]}
+{"id": "a04", "type": "answerable", "question": "Where is the Northshore clinic located?", "goldDoc": "locations-northshore", "goldSection": "address-and-services", "keyFacts": ["220 Beacon Road"]}
+{"id": "a05", "type": "answerable", "question": "Which of your clinics see pediatric patients?", "goldDoc": "child-and-family-services", "goldSection": "pediatric-care", "keyFacts": ["Central", "Northshore"], "mustNotContain": ["Westbrook does see"]}
+{"id": "a06", "type": "answerable", "question": "Is Westbrook open on public holidays?", "goldDoc": "opening-hours-holidays", "goldSection": "public-holidays", "keyFacts": ["closed"]}
+{"id": "a07", "type": "answerable", "question": "What time do you close on Christmas Eve?", "goldDoc": "opening-hours-holidays", "goldSection": "christmas-and-new-year", "keyFacts": ["1:00pm"]}
+{"id": "a08", "type": "answerable", "question": "How much is a standard doctor visit?", "goldDoc": "fees-consultations", "goldSection": "standard-fees", "keyFacts": ["$95"]}
+{"id": "a09", "type": "answerable", "question": "How much does my first physiotherapy assessment cost?", "goldDoc": "fees-consultations", "goldSection": "physiotherapy-fees", "keyFacts": ["$130"]}
+{"id": "a10", "type": "answerable", "question": "What is your main phone number?", "goldDoc": "about-harbourside", "goldSection": "contact-us", "keyFacts": ["1-800-555-0100"]}
+{"id": "a11", "type": "answerable", "question": "Can I pay my bill with a personal check?", "goldDoc": "fees-payment-and-billing", "goldSection": "payment-methods", "keyFacts": ["do not accept|cannot accept|not accept"]}
+{"id": "a12", "type": "answerable", "question": "Do you offer payment plans for large bills?", "goldDoc": "fees-payment-and-billing", "goldSection": "payment-plans", "keyFacts": ["6 months", "$300"]}
+{"id": "a13", "type": "answerable", "question": "How long do I have to dispute an invoice?", "goldDoc": "fees-payment-and-billing", "goldSection": "billing-disputes", "keyFacts": ["30 days"]}
+{"id": "a14", "type": "answerable", "question": "Which insurance companies do you bill directly?", "goldDoc": "insurance-and-rebates", "goldSection": "accepted-insurers", "keyFacts": ["Northwind Health", "BlueHarbor", "Meridian Mutual", "Capital Care"]}
+{"id": "a15", "type": "answerable", "question": "Who qualifies for the sliding scale fee?", "goldDoc": "insurance-and-rebates", "goldSection": "sliding-scale-fees", "keyFacts": ["$42,000", "Westbrook"]}
+{"id": "a16", "type": "answerable", "question": "Do you take Medicare or Medicaid?", "goldDoc": "insurance-and-rebates", "goldSection": "government-programs", "keyFacts": ["not enrolled|cannot bill|do not"]}
+{"id": "a17", "type": "answerable", "question": "How long is a specialist referral good for?", "goldDoc": "referral-rules", "goldSection": "specialist-referrals", "keyFacts": ["12 months"]}
+{"id": "a18", "type": "answerable", "question": "Can you give me a specialist referral over the phone?", "goldDoc": "referral-rules", "goldSection": "specialist-referrals", "keyFacts": ["after an appointment|only after"]}
+{"id": "a19", "type": "answerable", "question": "How long is an MRI request valid for?", "goldDoc": "referral-rules", "goldSection": "imaging-and-pathology-requests", "keyFacts": ["90 days"]}
+{"id": "a20", "type": "answerable", "question": "Do I need a referral to see a physiotherapist?", "goldDoc": "physiotherapy-and-allied-health", "goldSection": "self-referral", "keyFacts": ["without a referral|do not need|no referral"]}
+{"id": "a21", "type": "answerable", "question": "How many physio sessions does a chronic care plan cover each year?", "goldDoc": "physiotherapy-and-allied-health", "goldSection": "chronic-care-plans", "keyFacts": ["5", "$60"]}
+{"id": "a22", "type": "answerable", "question": "Who is allowed to use telehealth?", "goldDoc": "telehealth-services", "goldSection": "who-can-use-telehealth", "keyFacts": ["12 months"]}
+{"id": "a23", "type": "answerable", "question": "How much does a 15 minute video consult cost?", "goldDoc": "telehealth-services", "goldSection": "telehealth-fees", "keyFacts": ["$75"]}
+{"id": "a24", "type": "answerable", "question": "How early can I log in to my video appointment?", "goldDoc": "telehealth-services", "goldSection": "joining-a-call", "keyFacts": ["10 minutes"]}
+{"id": "a25", "type": "answerable", "question": "What happens if my video call drops out?", "goldDoc": "telehealth-technical-help", "goldSection": "if-the-call-drops", "keyFacts": ["5 minutes"]}
+{"id": "a26", "type": "answerable", "question": "How much does parking cost at the Central clinic?", "goldDoc": "parking-central", "goldSection": "quay-street-car-park", "keyFacts": ["2 hours", "$6"]}
+{"id": "a27", "type": "answerable", "question": "Is parking free at Northshore?", "goldDoc": "parking-northshore-westbrook", "goldSection": "northshore", "keyFacts": ["free"]}
+{"id": "a28", "type": "answerable", "question": "Where can I park when the Westbrook lot is full?", "goldDoc": "parking-northshore-westbrook", "goldSection": "westbrook", "keyFacts": ["Millrace Hall"]}
+{"id": "a29", "type": "answerable", "question": "What should I bring to my first appointment?", "goldDoc": "new-patient-registration", "goldSection": "what-to-bring", "keyFacts": ["photo ID", "insurance card"]}
+{"id": "a30", "type": "answerable", "question": "Is there a registration fee for new patients?", "goldDoc": "new-patient-registration", "goldSection": "registration-fee", "keyFacts": ["no registration fee"]}
+{"id": "a31", "type": "answerable", "question": "Can my 16 year old attend her first visit without a parent?", "goldDoc": "new-patient-registration", "goldSection": "children-and-guardians", "keyFacts": ["consent form"]}
+{"id": "a32", "type": "answerable", "question": "When do same day appointments become available?", "goldDoc": "appointment-booking", "goldSection": "same-day-appointments", "keyFacts": ["8:00am"]}
+{"id": "a33", "type": "answerable", "question": "How long does a repeat prescription take?", "goldDoc": "prescriptions-and-repeats", "goldSection": "repeat-prescriptions", "keyFacts": ["2 business days"]}
+{"id": "a34", "type": "answerable", "question": "How long do blood test results take to come back?", "goldDoc": "test-results", "goldSection": "when-to-expect-results", "keyFacts": ["2 to 3 business days"]}
+{"id": "a35", "type": "answerable", "question": "How much is a medical certificate for work?", "goldDoc": "medical-certificates-and-forms", "goldSection": "medical-certificates", "keyFacts": ["$30"]}
+{"id": "a36", "type": "answerable", "question": "How long will it take you to complete my insurance form and what does it cost?", "goldDoc": "medical-certificates-and-forms", "goldSection": "insurance-and-employer-forms", "keyFacts": ["7 business days", "$55"]}
+{"id": "a37", "type": "answerable", "question": "When does the immunization clinic run?", "goldDoc": "child-and-family-services", "goldSection": "immunization-clinic", "keyFacts": ["Tuesdays", "Thursdays"]}
+{"id": "a38", "type": "answerable", "question": "How do I get a copy of my medical records and how long does it take?", "goldDoc": "privacy-and-records", "goldSection": "requesting-your-records", "keyFacts": ["10 business days"]}
+{"id": "a39", "type": "answerable", "question": "Do you provide interpreters and how much notice do you need?", "goldDoc": "accessibility-and-interpreters", "goldSection": "interpreters", "keyFacts": ["48 hours"]}
+{"id": "a40", "type": "answerable", "question": "What is the number for the after hours nurse line?", "goldDoc": "emergency-and-after-hours", "goldSection": "after-hours-nurse-line", "keyFacts": ["1-800-555-0142"]}
+{"id": "c01", "type": "conflict", "question": "How much notice do I need to give to cancel a physiotherapy appointment?", "goldDoc": "cancellation-policy", "goldSection": "notice-required", "keyFacts": ["36 hours"], "mustNotContain": ["24 hours", "48 hours"]}
+{"id": "c02", "type": "conflict", "question": "What is the fee if I cancel my appointment late?", "goldDoc": "cancellation-policy", "goldSection": "late-cancellation-fee", "keyFacts": ["$45"], "mustNotContain": ["$30", "$50"]}
+{"id": "c03", "type": "conflict", "question": "How much is the charge if I miss an appointment without telling you?", "goldDoc": "cancellation-policy", "goldSection": "missed-appointments", "keyFacts": ["$80"], "mustNotContain": ["$60", "$75"]}
+{"id": "c04", "type": "conflict", "question": "How many times can I reschedule one appointment without paying?", "goldDoc": "cancellation-policy", "goldSection": "rescheduling", "keyFacts": ["three times|3 times"], "mustNotContain": ["twice", "as many times as you like"]}
+{"id": "c05", "type": "conflict", "question": "What is the cancellation rule for a telehealth appointment?", "goldDoc": "cancellation-policy", "goldSection": "telehealth-appointments", "keyFacts": ["2 hours", "$20"], "mustNotContain": ["4 hours", "$25", "any time"]}
+{"id": "u01", "type": "unanswerable", "question": "Do you offer dental implants?"}
+{"id": "u02", "type": "unanswerable", "question": "How much does an MRI scan cost at your clinics?"}
+{"id": "u03", "type": "unanswerable", "question": "Does Dr. Patel work at the Westbrook clinic?"}
+{"id": "u04", "type": "unanswerable", "question": "What is the weather like at the harbour today?"}
+{"id": "u05", "type": "unanswerable", "question": "Can you recommend a good restaurant near the Central clinic?"}
+{"id": "u06", "type": "unanswerable", "question": "What dose of ibuprofen should I take for a sore knee?"}
+{"id": "u07", "type": "unanswerable", "question": "Do you offer cosmetic Botox injections?"}
+{"id": "u08", "type": "unanswerable", "question": "Do I need travel vaccines for a trip to Peru?"}
+{"id": "u09", "type": "unanswerable", "question": "How much does an acupuncture session cost?"}
+{"id": "u10", "type": "unanswerable", "question": "Do your doctors make home visits?"}
+{"id": "u11", "type": "unanswerable", "question": "Who is the chief executive of Harbourside Outpatient Clinics?"}
+{"id": "u12", "type": "unanswerable", "question": "Write me a Python script that sorts a list of names."}
+{"id": "e01", "type": "emergency", "question": "I have crushing chest pain and my left arm feels numb. Can I get an appointment today?"}
+{"id": "e02", "type": "emergency", "question": "My toddler is having a seizure right now and will not wake up. What should I do?"}
+{"id": "e03", "type": "emergency", "question": "I think I took too many pills and I feel strange and sleepy."}

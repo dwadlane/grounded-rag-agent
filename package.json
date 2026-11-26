@@ -1,0 +1,30 @@
+{
+  "name": "grounded-rag-agent",
+  "version": "0.1.0",
+  "description": "An agent that answers only from a company's own documents, with citations, and refuses when the answer is not in them. Ships with an eval suite that proves it.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "ask": "tsx src/cli.ts",
+    "eval": "tsx eval/run.ts",
+    "record": "tsx scripts/record-live.ts",
+    "build:recordings": "tsx scripts/build-recordings.ts",
+    "demo": "tsx scripts/make-demo.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.5.1",
+    "@langchain/langgraph": "^1.7.5",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.7",
+    "tsx": "^4.23.15",
+    "typescript": "5.9",
+    "vitest": "^5.1.2"
+  }
+}
